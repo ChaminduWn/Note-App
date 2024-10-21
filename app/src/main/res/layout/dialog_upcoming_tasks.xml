@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/captionText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/task_nxt_24"
+        android:textColor="@color/softblue"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/taskContainer"
+        android:layout_width="338dp"
+        android:layout_height="384dp"
+        android:orientation="vertical" />
+
+
+    <Button
+        android:id="@+id/closePopupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/close"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@color/grey_chetu"
+        app:cornerRadius="0dp" />
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

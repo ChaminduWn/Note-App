@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Darklightblue">#192A56</color>
+    <color name="lightblue">#0A3D62</color>
+
+    <color name="softblue">#0A3D62</color>
+
+
+    <color name="progress_background">#3D3D3D</color>
+    <color name="progress_foreground">#ADD8E6</color>
+
+    <color name="NavyBlue">#1A237E</color>
+    <color name="primary_blue">#0D47A1</color>
+    <color name="accent_blue">#42A5F5</color>
+    <color name="light_blue">#E3F2FD</color>
+    <color name="dark_text_blue">#1A237E</color>
+    <color name="active_blue">#81D4FA</color>
+
+    <color name="HighLightPurple">#efbbff</color>
+    <color name="lightPurple">	#d896ff</color>
+    <color name="mediumPurple">#be29ec</color>
+    <color name="darkPurple">#800080</color>
+    <color name="highdarkPurple">#660066</color>
+
+    <color name="lightgrey">#bbbbbb</color>
+    <color name="grey_chetu">#92A0AD</color>
+
+    <color name="whisper">#E5E5E5</color>
+    <color name="ligt_slate_grey">#778899</color>
+    <color name="ligt_grey">#d3d3d3</color>
+
+    <color name="red">#FF0000</color>
+
+    <color name="purple">#35063e</color>
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

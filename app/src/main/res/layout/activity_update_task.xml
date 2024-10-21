@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UpdateTask">
+
+    <EditText
+        android:id="@+id/titleInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/primary_blue"
+        android:hint="@string/update_title"
+        android:textColor="@color/black"
+        app:hintTextColor="@color/primary_blue" />
+
+    <EditText
+        android:id="@+id/contentInput"
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:backgroundTint="@color/primary_blue"
+        android:hint="@string/update_content"
+        android:textColor="@color/black"
+        app:hintTextColor="@color/primary_blue" />
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="@string/update_date"
+
+        android:textColor="@color/grey_chetu"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/pickDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/grey_chetu"
+        android:text="@string/pick_date"
+        android:textColor="@color/light_blue"
+        app:cornerRadius="10sp" />
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/update_time"
+        android:textColor="@color/grey_chetu"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/pickTimeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/grey_chetu"
+        android:text="@string/pick_time"
+        android:textColor="@color/light_blue"
+        app:cornerRadius="10sp" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/statusSwitch"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="@string/In_progress"
+        android:textColor="@color/dark_text_blue"
+        android:thumbTint="@color/accent_blue"
+        android:trackTint="@color/primary_blue" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/softblue"
+        android:text="@string/update_task"
+        android:textColor="@color/light_blue"
+        app:cornerRadius="10sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/ligt_slate_grey"
+        android:text="@string/Cancel"
+        android:textColor="@color/light_blue"
+        app:cornerRadius="0sp" />
+
+</LinearLayout>

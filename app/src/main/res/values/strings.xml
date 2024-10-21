@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Note App</string>
+    <string name="Tasks"> Note </string>
+    <string name="Task1"> Tasks 01 </string>
+    <string name="enter_task"> Enter new Task </string>
+    <string name="save"> Save </string>
+    <string name="save_button"> Save </string>
+    <string name="title"> Title </string>
+    <string name="content"> Content </string>
+    <string name="date"> Date </string>
+    <string name="status"> Status </string>
+
+
+    <string name="update_button">Update</string>
+    <string name="delete_button">Delete</string>
+
+    <string name="calendar"> calendar </string>
+    <string name="focus"> focus </string>
+    <string name="enter_title"> Enter title </string>
+    <string name="enter_content"> Enter content </string>
+    <string name="update_title"> Change title  </string>
+    <string name="update_content"> Change content </string>
+    <string name="pick_date"> Select Date </string>
+    <string name="pick_time"> Select Time </string>
+    <string name="update_time"> Change Time </string>
+    <string name="update_date"> Change Date </string>
+    <string name="In_progress">In Progress </string>
+    <string name="update_task">Change Note</string>
+    <string name="select_date"> Select Date :</string>
+    <string name="Cancel"> Cancel </string>
+    <string name="Status_in_progress"> Status: in progress </string>
+    <string name="select_time"> Select Time : </string>
+    <string name="add_task">Add new Note </string>
+    <string name="Dismiss"> Dismiss </string>
+    <string name="income_task"> Incoming Tasks</string>
+    <string name="task_title"> Task Title </string>
+    <string name="task_content"> Task details go here </string>
+    <string name="start"> Start </string>
+    <string name="Stop"> Stop </string>
+    <string name="time"> Time: </string>
+    <string name="countdown"> Countdown: X hours </string>
+    <string name="close"> Close </string>
+    <string name="task_nxt_24"> Upcoming Tasks </string>
+
+
+
+
+
+
+
+
+
+
+</resources>
