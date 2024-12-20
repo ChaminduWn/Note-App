@@ -17,5 +17,3 @@
 </center>
 <h3>License:</h3> <p>This project is licensed under the <strong>MIT License</strong>. See the <code>LICENSE</code> file for details.</p>
 
-
-Let me know if you need further adjustments! 🚀
